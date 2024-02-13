@@ -15,9 +15,9 @@ services:
     envVars:
       - key: postgres://nirav:Dks6LQOv2G9lj4wqDh0wHkBWS5ykZOll@dpg-cn5jj8en7f5s738ibvmg-a.singapore-postgres.render.com/mysitedev
         fromDatabase:
-          name: mysitedev
+          name: testing-my-site
           property: connectionString
-      - key: RAILS_MASTER_KEY
+      - key: 3b27037acac070340c0bdde3a2159f5c
         sync: false
       - key: WEB_CONCURRENCY
         value: 2 # sensible default
