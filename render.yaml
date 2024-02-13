@@ -13,7 +13,7 @@ services:
     # preDeployCommand: "bundle exec rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: "bundle exec rails server"
     envVars:
-      - key: postgres://nirav:Dks6LQOv2G9lj4wqDh0wHkBWS5ykZOll@dpg-cn5jj8en7f5s738ibvmg-a.singapore-postgres.render.com/mysitedev
+      - key: postgres://nirav:Dks6LQOv2G9lj4wqDh0wHkBWS5ykZOll@dpg-cn5jj8en7f5s738ibvmg-a/mysitedev
         fromDatabase:
           name: testing-my-site
           property: connectionString
